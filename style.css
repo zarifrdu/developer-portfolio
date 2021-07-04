@@ -8,13 +8,14 @@ h1 {
 .orange-color {
     color: orange;
 }
-section {
+.flex-type {
     display: flex;
     margin-bottom: 100px;
 }
 .div-size {
     width: 50%;
     padding-left: 5%;
+   
 }
 .div-size img {
     width: 80%;
@@ -36,4 +37,33 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box-effect {
+    box-shadow: chocolate 10px 10px 40px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+span {
+    color: orange;
+}
+.third-row {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#box-first {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#box-second {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
